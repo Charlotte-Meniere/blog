@@ -1,0 +1,14 @@
+.frame {
+  background-color: rgb(253, 216, 213);
+  width: 90vw;
+  height: 30vh;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  .round {
+    img {
+      width: 30vw;
+    }
+  }
+}

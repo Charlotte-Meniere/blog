@@ -1,0 +1,14 @@
+.Navbar {
+  border-bottom: solid black 20px;
+  width: 40vw;
+  div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    p {
+      text-decoration: none;
+      color: black;
+    }
+  }
+}

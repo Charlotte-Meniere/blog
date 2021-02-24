@@ -1,0 +1,24 @@
+* {
+  margin: 0 auto;
+}
+.Home {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(253, 216, 213);
+  height: 60vh;
+  border-radius: 30px;
+  width: 90vw;
+  align-self: center;
+  justify-content: space-around;
+  margin-top: 5vh;
+  img {
+    width: 30vw;
+
+    border-radius: 100%;
+  }
+}
+.latest-post {
+  margin-top: 30px;
+  width: 90vw;
+  height: 50vh;
+}
