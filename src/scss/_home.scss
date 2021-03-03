@@ -4,18 +4,14 @@
 .Home {
   display: flex;
   flex-direction: column;
-  background-color: rgb(253, 216, 213);
+  background-image: url(../images/phone.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 60vh;
-  border-radius: 30px;
-  width: 90vw;
+  background-position: center;
   align-self: center;
   justify-content: space-around;
   margin-top: 5vh;
-  img {
-    width: 30vw;
-
-    border-radius: 100%;
-  }
 }
 .latest-post {
   margin-top: 30px;

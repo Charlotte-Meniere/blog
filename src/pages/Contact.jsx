@@ -6,10 +6,14 @@ const Contact = () => {
       <div className="frame">
         <h2>Keep in touch</h2>
       </div>
-      <div className="round">
-        <img src="../images/phone.jpg" alt="phone" />
-      </div>
-      <article></article>
+      <article className="formulaires">
+        <div className="inputEvent">
+          <label htmlFor="input">Laissez moi un message</label>
+          <input type="text" id="input" />
+          <div id="result"></div>
+          <div className="response"></div>
+        </div>
+      </article>
     </div>
   );
 };
